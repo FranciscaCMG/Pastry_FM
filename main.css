@@ -76,6 +76,22 @@ header {
 
 }
 
+/* Estilos Carrusel */
+
+.carousel img{
+    width: 60%; 
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* Estilos main */
 
@@ -181,6 +197,7 @@ h4 {
 }
 .categoria-img  {
     width: 100%;
+    padding: 2vh;
 }
 
 .categoria-img a img:hover{
