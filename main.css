@@ -76,6 +76,22 @@ header {
 
 }
 
+/* Estilos Carrusel */
+
+.carousel img{
+    width: 60%; 
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* Estilos main */
 
@@ -181,6 +197,7 @@ h4 {
 }
 .categoria-img  {
     width: 100%;
+    padding: 2vh;
 }
 
 .categoria-img a img:hover{
@@ -373,22 +390,25 @@ iframe {
     
 }
 
-.redes a {
+.container a {
     text-decoration: none;
     color:#C70039;
 
 
 }
-.redes a:hover{
+.container a:hover{
     background-color: #C70039;
     color:beige;
     padding: 5px;
 }
 
 
-.redes {
+.container {
     background-color: beige;
+    width: 100%;
     padding: 20px;
+    max-width: 100%; 
+
     
 }
 
@@ -434,10 +454,6 @@ iframe {
 
 }
 
-
-.redes img {
-    background-color: #fff;
-}
 
 
 /* A partir de acá usamos las media quires*/
